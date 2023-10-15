@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Caveat:wght@700&family=Inclusive+Sans&family=Lobster&family=Mooli&family=Poppins:wght@200;300;500&family=Quicksand:wght@300&family=Raleway+Dots&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: 'Inclusive Sans', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-position: top;
+    /* background-image: url(./assets/colorful-hot-air-balloons-against-isolated-color-background-abstract-balloon-art-poster.jpg); */
+    background-image: url(./assets/futuristic-wave-pattern-glows-bright-colors-generated-by-ai.jpg);
+}
+.nav{
+    width: 90%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+.nav .left{
+    display: flex;
+    align-items: center;
+}
+.nav .left .logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(226,35,102);
+}
+.nav .right a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding-inline: 15px;
+}
+.nav button{
+    padding: 3px;
+    padding-inline: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.nav button:hover{
+    background-color: rgb(103, 152, 196);
+}
+/* *********************** */
+.hero{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: whitesmoke;
+    /* color: rgb(14, 222, 111); */
+}
+.hero h1{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero h3{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-block: 50px;
+}
+.hero .email{
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+}
+.hero .email input{
+    width: 300px;
+    padding-inline: 20px;
+    border: none;
+    padding: 15px;
+    border-radius: 40px;
+}
+.hero .email button{
+    width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    border: none;
+    color: whitesmoke;
+    background-color:rgb(226,35,102) ;
+    cursor: pointer;
+}
+.hero .email button:hover{
+    border: 2px solid rgb(226,35,102);
+    color: rgb(226,35,102);
+    background: transparent;
+}
+.hero img{
+    padding-block: 50px;
+    width: 150px;
+}
+/* ****************************** */
+
